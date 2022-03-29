@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form action="/" name="signup" class="form">
+        <h1>Sign Up</h1><br><br>
+        <label for="fname" class="first">First Name</label>
+        <label for="lname"class="second">Last Name</label><br>
+        <input type="text" id="fname" class="first" autofocus>
+        <input type="text" id="lname" class="second"><br><br>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" class="long"><br><br>
+        <label for=email>Email</label><br>
+        <input type="email" id="email" class="long"><br><br>
+        <label for="num">Phone Number</label><br>
+        <input type="tel" id="num" pattern="[0-9]{10}" class="long"><br><br>
+        <label for="fpass">Password</label><br>
+        <input id="fpass" type="password" class="long"><br><br>
+        <label for="spass">Re-type Password</label><br>
+        <input id="spass" type="password" class="long"><br><br><br>
+        <input type="button" value="Sign Up">
+    </form>
+</body>
+</html>
